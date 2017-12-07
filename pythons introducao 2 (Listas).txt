@@ -1,0 +1,25 @@
+Para criar uma lista que não permite adicionar valor.
+utilizamos a tupla declaramos ela com ()
+parentesco = ('Pai','Filho','Mae', 'Avo', 'Avo')
+
+variaveis com valor.
+
+parentesco = ('Pai',25,'Mae',20'Filho',18,'Avo',50)
+para recuperar os valores usamos o slice []
+
+usando o dictionary
+
+parentesco = {'Pai':25,'Mae':20'Filho':18,'Avo':50}
+recuperar o valor usamos 
+parentesco['Pai']
+
+usando os parametros valores e chaves
+
+parentesco.keys()
+vai imprimir apenas as chaves Pai,Mae,Filho
+
+parentesco.values()
+apenas os valores das chaves
+
+
+

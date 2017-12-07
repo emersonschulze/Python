@@ -1,0 +1,21 @@
+Recuperando tamanho das strings
+
+nome_completo = 'Emerson da Costa Schulze'
+tamanho = len(nome_completo)
+
+len retorna o tamanho...
+
+Criando uma biblioteca no python, para usar mais tarde. cuidado pois é importante
+a identação e tabulação ou o python não compila.
+
+criando o arquivo biblioteca.py
+
+importanto biblioteca no terminal do python
+precisamos abrir o terminal na mesma pasta que a biblioteca se encontra
+
+no comando faça 
+from biblioteca import *
+
+toda vez que altera o arquivo deve-se importar ele novamente
+
+para chamar a função no console use o nome da função() caso tenha parametros, basta passalos
