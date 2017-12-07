@@ -1,0 +1,54 @@
+Instalar pelo python.org/downloads
+melhor versão é a 2.7 pois a superior teve problemas, e alguns projetos
+foram migrados para essa versão pela estabilidade.
+Ao instalar no windows deve colocar na pasta path a python27
+
+Introdução ao Python pelo terminal
+
+
+*A variável só existe quanto atribuida valor a ela.
+*padrao é se usar _ para variavel de dois nomes, e sempre com letras minusculas
+
+Variavel String
+nome_completo = 'Emerson da Costa Schulze'
+
+nome_completo 
+Vai imprimir a variavel
+
+Variavel Int
+idade = 28
+
+Declarar varias variavel de uma vez
+dia, mes, ano = 02, 'Dezembro', 2017
+
+recortando palavra e atribuindo em outra variavel
+nome_apresentavel = nome_completo [0:7] + ' ' + [17:25]
+[]Recorta a palavra por posicao, string pode ser entre "" ou ''
+
+Para concatenar string e numero usa-se
+'Bem vindo %s sua idade e: %s ' % (nome_apresentavel,idade)
+
+Aqui %s substitui pela variavel em parentes, a ordem importa
+
+Criando uma lista
+
+familia = ['Emerson','Franciele','Gabriela']
+ 
+imprimir apenas a posicao 1 e 3
+famili[1:3]
+
+imprimir da posicao 1 para frente
+familia[1:]
+
+para adicionar mais uma pessoa a lista
+familia.append('Oliver')
+
+listas em python podem ser de varios tipos exemplo
+familia.append(4)
+
+se mandarmos imprimir familia vamos ver que tem 4 string e um number
+para nao poluir vamos remover
+
+familia.remove(4)
+Não é a posição mas o conteudo da posição, se fosse uma string tem que passar exatamente igual. 
+ 
